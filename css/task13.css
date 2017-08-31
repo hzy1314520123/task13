@@ -46,7 +46,7 @@ main{
 .menu{
        position:relative;
 }
-.menu a{
+.title-sm a{
 	color: white;
 }
 .submenu{
