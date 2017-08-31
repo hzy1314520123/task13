@@ -86,20 +86,27 @@ main {
 }
 
 .content {
-	border: solid 3px white;
-	margin: 0 auto;
-	background-color: #0044CC;
-	width: 63.75%;
+	    border: solid 3px white;
+    margin: 0 auto;
+    background-color: #0044CC;
+    width: 22vw;
+    height: 22vw;
 }
 
 .hptopone {
-	padding: 25% 0;
-	background-color: #f3c881;
+	    text-align: center;
+    background-color: #f3c881;
+    line-height: 16.5vw;
+    height: 16.5vw;
 }
 
 .snb {
-	color: white;
-	background-color: #82af98;
+	background-color: #83b09a;
+	 font-size: 2.5vw;
+    color: white;
+    line-height: 5.5vw;
+    text-align: center;
+    height: 5.5vw;
 }
 
 .option {
