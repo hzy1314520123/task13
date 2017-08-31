@@ -1,0 +1,156 @@
+body {
+	padding: 0;
+}
+
+.opation,
+header,
+.subnav,
+.hptopone,
+.snb,
+.footer-title {
+	text-align: center;
+}
+
+
+/*页眉部分*/
+
+header {
+	padding: 5px;
+}
+
+header p {
+	margin-top: 5px;
+	display: inline-block;
+	font-size: 24px;
+}
+
+.icon-mulu {
+	margin-left: 10px;
+	font-size: 30px;
+}
+
+.icon-cha {
+	margin-right: 10px;
+	font-size: 30px;
+}
+
+
+/*发言结束*/
+
+.subnav {
+	padding: 15px 10px 15px 30px;
+	margin-top: 59px;
+	position: relative;
+	font-size: 20px;
+	text-align: left;
+	color: #8C8C8C;
+	background-color: #BAE9F4;
+}
+
+.subnav p {
+	margin: 0;
+}
+
+.subnav-btn {
+	display: block;
+	height: 30px;
+	width: 30px;
+	background: url(../img13/发言讨论结束，投票_03.png) left no-repeat;
+	background-size: 100%;
+}
+
+.icon-xia {
+	position: absolute;
+	top: 52px;
+	z-index: 88;
+	color: #BAE9F4;
+}
+
+
+/*中间部分*/
+
+main {
+	z-index: 1;
+	position: relative;
+	padding-top: 1px;
+	padding-bottom: 6rem;
+	background-color: #2BBDE0;
+}
+
+.shop {
+	width: 33%;
+}
+
+.msg {
+	margin: 25px 0px 40px 38px;
+	color: white;
+}
+
+.content {
+	border: solid 3px white;
+	margin: 0 auto;
+	background-color: #0044CC;
+	width: 63.75%;
+}
+
+.hptopone {
+	padding: 25% 0;
+	background-color: #f3c881;
+}
+
+.snb {
+	color: white;
+	background-color: #82af98;
+}
+
+.option {
+	overflow: hidden;
+	margin: 15px auto;
+	width: 63.75%;
+}
+
+.option div {
+	float: left;
+	border: solid 1px #5AC0CE;
+	background-color: white;
+	width: 25%;
+}
+
+.icon-chakan {
+	color: #F89406;
+}
+
+.icon-miaozhunjing {
+	color: #40AA29;
+}
+
+.icon-shizi {
+	color: red;
+}
+
+.option {
+	visibility: hidden;
+}
+
+.shop:hover .option {
+	visibility: visible;
+}
+
+
+/*底部*/
+
+.footer-btn {
+	z-index: 99;
+	height: 5rem;
+	background-color: #5AC0CE;
+}
+
+.footer-title {
+	height: 3.5rem;
+	width: 80%;
+	border-radius: 0.5rem;
+	margin: 0.8rem auto 1rem;
+	font-size: 2rem;
+	line-height: 3.5rem;
+	background-color: #f8B455;
+}
